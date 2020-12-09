@@ -1,0 +1,13 @@
+{
+  "name": "Magazine API",
+  "description": "Strapi API for @edgarlr/magazine",
+  "keywords": ["strapi", "heroku"],
+  "repository": "https://github.com/edgarlr/magazine-api",
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
