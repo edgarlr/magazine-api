@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_global_main_social_urls",
+  "info": {
+    "name": "main_social_urls",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "twitter": {
+      "type": "string",
+      "regex": "^((?!twitter).)*$",
+      "required": false
+    },
+    "instagram": {
+      "type": "string",
+      "regex": "^((?!instagram).)*$",
+      "required": false
+    },
+    "facebook": {
+      "type": "string",
+      "regex": "^((?!facebook).)*$"
+    },
+    "youtube": {
+      "type": "string",
+      "regex": "^((?!youtube).)*$"
+    },
+    "linkedin": {
+      "type": "string",
+      "regex": "^((?!linkedin).)*$"
+    },
+    "contact_email": {
+      "type": "email"
+    }
+  }
+}

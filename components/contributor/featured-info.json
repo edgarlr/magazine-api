@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contributor_featured_infos",
+  "info": {
+    "name": "featured_info",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "profile_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contributors",
+  "info": {
+    "name": "Contributor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "urls": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contributor.social-urls",
+      "required": true
+    },
+    "featured": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contributor.featured-info"
+    }
+  }
+}
