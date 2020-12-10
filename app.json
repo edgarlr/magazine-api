@@ -5,6 +5,21 @@
   "repository": "https://github.com/edgarlr/magazine-api",
   "addons": ["heroku-postgresql:hobby-dev"],
   "image": "heroku/nodejs",
+  "success_url": "/admin",
+  "env": {
+    "CLOUDINARY_NAME": {
+      "description": "Cloud name of your cloudinary account",
+      "generator": ""
+    },
+    "CLOUDINARY_KEY": {
+      "description": "API Key of your cloudinary account",
+      "value": ""
+    },
+    "CLOUDINARY_SECRET": {
+      "description": "API Secret of your cloudinary account",
+      "value": ""
+    } 
+  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
