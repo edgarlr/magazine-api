@@ -9452,6 +9452,11 @@ strapi-plugin-email@3.4.6:
     strapi-provider-email-sendmail "3.4.6"
     strapi-utils "3.4.6"
 
+strapi-plugin-preview-content@^0.2.75:
+  version "0.2.75"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-content/-/strapi-plugin-preview-content-0.2.75.tgz#7b546ddda1c464ddd1f9e723d3193b6e3ff743c7"
+  integrity sha512-tMUVxrflzTAwxHuojCrqCOPU3t8WTN8MR8zr0R1CFlCXQ4Ghju0R0mTcedf6RgmrHXYgv1nmBm3vXnj0FSkRdw==
+
 strapi-plugin-upload@3.4.6:
   version "3.4.6"
   resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.4.6.tgz#a38c02df4d4b1a42f416f7c31982ce3e7e657498"
